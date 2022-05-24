@@ -5,7 +5,7 @@ export class Component5 extends Component {
     render() {
         return (
             <SDiv5>
-                <SIMG src="../src/images/FotoFrontal.jpg"/>
+                <SIMG src="https://i.imgur.com/hGHY4gW.jpg"/>
                 <F1>Sebastian Luna Rosero</F1>
                 <F2>Aprendíz Geek</F2>
                 <F3>Dando lo mejor para seguir aprendiendo</F3>
