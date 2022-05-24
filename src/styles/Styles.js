@@ -31,29 +31,49 @@ export const F3 = styled.h5`
 export const SDiv1 = styled.div`
     border: 2px solid orange;
     margin-left: 25vw; margin-bottom: 8px;
+    @media (max-width: 768px) {
+    margin-left: 0px;
+  }
 `
 export const SDiv2 = styled.div`
     border: 2px solid violet;
     margin-left: 25vw; margin-bottom: 8px;
+    @media (max-width: 768px) {
+        margin-left: 0px;
+  }
 `
 export const SDiv3 = styled.div`
     border: 2px solid olive;
     margin-left: 25vw; margin-bottom: 8px;
+    @media (max-width: 768px) {
+        margin-left: 0px;
+  }
 `
 export const SDiv4 = styled.div`
     border: 2px solid purple;
     margin-left: 25vw; margin-bottom: 8px;
+    @media (max-width: 768px) {
+        margin-left: 0px;
+  }
 `
 export const SDiv5 = styled.div`
     position: absolute;
     width: 25vw;
     text-align: center;
-    margin-top: 120px
+    margin-top: 120px;
+    @media (max-width: 768px) {
+    position: initial;
+    margin: 0 auto;
+    width: 100vw;
+  }
 `
 export const SIMG = styled.img`
     width: 12vw;
-    border-radius: 100px;
+    border-radius: 100%;
     height: 12vw;
+    @media (max-width: 768px) {
+        width: 50vw; height: 50vw;
+      }
 `
 
 export const Cont = styled.div`
